@@ -1,0 +1,263 @@
+@media (max-width: 1024px) {
+  .loginForm .signButton Button {
+    padding: 10px 180px;
+  }
+  .logingftr .dropdown {
+    padding-bottom: 15px;
+  }
+  .logInCard {
+    width: 57vw;
+    margin: 0 auto;
+    background-color: #00000080;
+    border-radius: 6px;
+  }
+  .logingftr .ftrcntnt ul li a {
+    text-wrap: nowrap;
+  }
+}
+@media (max-width: 912px) {
+  .loginForm .signButton Button {
+    padding: 10px 152px;
+  }
+  .logingftr {
+    background-color: #00000080;
+    margin-top: 3rem;
+    height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .loginmain {
+    height: 1158px;
+  }
+  .loginmain .loginbox {
+    height: 1158px;
+  }
+  .cardhdng {
+    color: white;
+    z-index: 10;
+    position: relative;
+    padding: 45px 30px;
+  }
+  .loginForm {
+    padding: 0 30px;
+  }
+  .logInCard .parabox {
+    padding: 20px 30px;
+  }
+  .loginForm .signButton Button {
+    padding: 10px 110px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mobsmall {
+    left: 80px !important;
+    width: 65% !important;
+  }
+  nav {
+    max-width: 60vw;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .hero > :nth-child(1) {
+    font-size: 38px;
+  }
+  .secImg video {
+    width: 420px;
+  }
+  .secImg img {
+    width: 450px;
+    position: relative;
+    z-index: 10;
+  }
+  .mobsmall .topmobbox img {
+    height: 71px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logInCard {
+    width: 70vw;
+  }
+  nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 78px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 20px;
+  }
+  .parabox p {
+    font-size: 14px;
+  }
+  .secImg img {
+    /* width: 466px; */
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+  }
+  .secImg video {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 555px;
+    width: 100%;
+    width: 100% !important;
+    height: 198px;
+  }
+  .mobsmall {
+    position: absolute;
+    bottom: 55px;
+    left: 42px;
+    z-index: 11;
+    background-color: black;
+    width: 77%;
+  }
+  .mobsmall .topmobbox img {
+    width: 100%;
+    height: 65px;
+  }
+  .faqBtnftr .hero-buttons input {
+    padding: 15px 141px 15px 14px;
+  }
+  /* .secImg img{
+        width: 480px;
+    } */
+}
+
+@media (max-width: 320px) {
+  .logInCard {
+    /* width: 70vw; */
+    width: 100%;
+  }
+  .loginForm .signButton Button {
+    padding: 10px 90px;
+  }
+  .mobsmall {
+    display: none;
+  }
+  .faqBtnftr .hero-buttons input {
+    padding: 15px 40px 15px 14px;
+  }
+  .hero > :nth-child(1) {
+    font-size: 20px;
+  }
+  .hero > :nth-child(2) {
+    font-size: 15px;
+  }
+  .hero > :nth-child(3) {
+    font-size: 14px;
+  }
+  section.first > div :nth-child(1) {
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  section.first > div :nth-child(2) {
+    font-size: 17px;
+  }
+  section.first > div :nth-child(1) {
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .faqbox {
+    padding: 10px;
+  }
+  .faqbox span {
+    font-size: 14px;
+  }
+  .faqBtnftr h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 280px) {
+  .loginForm .signButton Button {
+    padding: 10px 82px;
+  }
+  .loginForm {
+    padding: 0 18px;
+  }
+  .loginForm .signupbox p {
+    color: gray;
+    font-size: 14px;
+  }
+  .loginForm .signupbox a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  .loginForm {
+    padding: 0 18px;
+  }
+  .faqBtnftr .hero-buttons input {
+    padding: 15px 16px 15px 14px;
+  }
+  .flex-btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .main input {
+    padding: 15px 30px 15px 14px;
+  }
+  .askedQ p {
+    font-size: 12px;
+  }
+  .faq h2 {
+    font-size: 22px;
+  }
+  nav {
+    padding-top: 25px;
+  }
+  .separation {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 375px) {
+  .faqBtnftr .hero-buttons input {
+    padding: 15px 100px 15px 14px;
+  }
+  .mobsmall {
+    left: 5px;
+    width: 97%;
+  }
+}
+
+@media (min-width: 360px) {
+  .faqBtnftr .hero-buttons input {
+    padding: 15px 85px 15px 14px;
+  }
+  .mobsmall {
+    left: 7px;
+    width: 102%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobsmall {
+    left: 100px;
+    width: 62%;
+  }
+}
+
+@media (min-width: 540px) {
+  .mobsmall {
+    left: 124px;
+    width: 54%;
+  }
+  nav {
+    max-width: 86vw;
+  }
+}
