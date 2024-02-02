@@ -81,6 +81,20 @@
   }
 }
 
+@media (min-width: 375px) {
+  .hero > :nth-child(1) {
+    font-size: 32px;
+  }
+  .mobsmall {
+    left: 4px !important;
+    width: 98% !important;
+  }
+  .separation{
+    margin-top: 16px;
+  }
+}
+
+
 @media (max-width: 480px) {
   .logInCard {
     width: 70vw;
