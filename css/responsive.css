@@ -85,10 +85,6 @@
   .hero > :nth-child(1) {
     font-size: 32px;
   }
-  .mobsmall {
-    left: 4px !important;
-    width: 98% !important;
-  }
   .separation{
     margin-top: 16px;
   }
